@@ -3,7 +3,6 @@ const loading = document.querySelector('.content-loading')
 const contentImage = document.querySelector('#content-images')
 const article = document.querySelector('article')
 let data = []
-const position = [50, 150, 250, 50, 150, 250, 50, 150, 250]
 
 // Fetch your API_KEY
 const API_KEY = "AIzaSyBQ_7YmW7JNrXSKL20Mpj_0mUUPqWXQza0";
@@ -63,10 +62,8 @@ const unavailableImage = async () => {
 // Esta função cria o prompt, trata a imagem e conecta-se ao AI Studio para receber o retorno.
 document.getElementById('input-image-gemini').addEventListener('change', async function run() {
     const file = document.querySelector("input[type=file]");
-    // addItemView()
     if (!file.files[0])
         return
-    // return
     try {
         loading.classList.remove('hidden')
         article.classList.add('hidden')
@@ -82,8 +79,6 @@ document.getElementById('input-image-gemini').addEventListener('change', async f
         const result = await model.generateContent([prompt, ...imagePart]);
         const response = await result.response;
         const text = response.text();
-        // console.log(text);
-        console.log(text)
         if (text.includes('[]'))
             unavailableImage()
         else
