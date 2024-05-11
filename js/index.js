@@ -25,7 +25,7 @@ async function fileToGenerativePart(file) {
 // Esta função recebe o retorno da API, verifica se pode exibir a imagem e cria os componentes necessários para exibir os dados.
 const addItemView = (text, file) => {
     if (text[text.length - 1].prohibited)
-        return indisponivel()
+        return unavailableImage()
     const div = document.createElement('div')
     const image = document.createElement('img')
     image.src = `data:${file[0]?.inlineData?.mimeType};base64,` + file[0]?.inlineData?.data
