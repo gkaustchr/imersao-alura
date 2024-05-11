@@ -26,3 +26,8 @@ Este projeto é uma ótima opção para criar redes onde os usuários podem faze
 
 ### Contribuição
 - Contribuições são bem-vindas! Sinta-se à vontade para enviar pull requests ou abrir issues para relatar problemas ou sugerir melhorias.
+  
+![image](https://github.com/gkaustchr/imersao-alura/assets/21264174/db6c41a5-953b-4ce7-bf85-8b90e522ba2a)
+
+![image](https://github.com/gkaustchr/imersao-alura/assets/21264174/735cc7e7-61c6-406b-a519-48131a9ffb60)
+
