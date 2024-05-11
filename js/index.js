@@ -5,7 +5,7 @@ const article = document.querySelector('article')
 let data = []
 
 // Fetch your API_KEY
-const API_KEY = "AIzaSyCxuQYl5O3Bya3TFzmBGJYQ_AiUS90h_cc";
+const API_KEY = "AIzaSyDApS-BOHxQNOGT4RSGFfx1hII9G7XrWx4";
 
 // Esta função permite acessar a chave da API
 const genAI = new GoogleGenerativeAI(API_KEY);
