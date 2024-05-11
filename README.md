@@ -2,6 +2,7 @@
 Este é um projeto que permite importar imagens do seu dispositivo, convertê-las e enviá-las para o AI Studio. Lá, as imagens são processadas para identificar se contêm conteúdo sensível. Se for detectado conteúdo sensível, a imagem não é mostrada. Caso contrário, são exibidos os itens identificados na imagem.
 
 ## Este projeto utiliza apenas HTML5, JavaScript, CSS e AI Studio.
+[imersão-alura](https://www.google.com)
 
 Este projeto é uma ótima opção para criar redes onde os usuários podem fazer upload de fotos, garantindo que apenas imagens apropriadas sejam carregadas.
 
