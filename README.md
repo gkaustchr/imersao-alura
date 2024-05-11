@@ -2,7 +2,7 @@
 Este é um projeto que permite importar imagens do seu dispositivo, convertê-las e enviá-las para o AI Studio. Lá, as imagens são processadas para identificar se contêm conteúdo sensível. Se for detectado conteúdo sensível, a imagem não é mostrada. Caso contrário, são exibidos os itens identificados na imagem.
 
 ## Este projeto utiliza apenas HTML5, JavaScript, CSS e AI Studio.
-[imersão-alura](https://gkaustchr.github.io/imersao-alura/)
+[Visualizar Projeto](https://gkaustchr.github.io/imersao-alura/)
 
 Imagine uma ferramenta para blogs e redes sociais que permita identificar e evitar que os usuários enviem imagens sensíveis ou proibidas para o site, sem a necessidade de aprovação individual de cada foto. Além disso, essa ferramenta poderia permitir a proibição de certos tipos de temas em fotos, como temas políticos. Também seria possível obter informações relevantes para melhorar a plataforma, proporcionando uma descrição mais completa e adequada para pessoas com deficiência visual. Essa ferramenta oferece diversos usos possíveis de maneira simples e eficaz.
 
